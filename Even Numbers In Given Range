@@ -1,4 +1,6 @@
 #Printing Even Numbers In Given Range Using for Loop
 a,b=map(int,input().split())
-for i in range(a, b+1,2):
+c=(a+1)//2
+d=c*2
+for i in range(d, b+1,2):
   print(i)
