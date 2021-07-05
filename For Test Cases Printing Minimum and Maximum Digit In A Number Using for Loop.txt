@@ -1,0 +1,15 @@
+#For Test Cases Printing Minimum and Maximum Digit In A Number Using for Loop
+t=int(input())
+for i in range(t):
+  n=int(input())
+  min=9
+  max=0
+  while(n):
+    r=n%10
+    if(r<min):
+      min=r
+    if(r>max):
+      max=r
+    n=n//10
+  print('Minimum:', min)
+  print('Maximun:', max)
